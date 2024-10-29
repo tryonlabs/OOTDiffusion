@@ -5,7 +5,7 @@ import sys
 import torch
 from PIL import Image, ImageOps
 
-from utils_ootd import get_mask_location
+from ootdiffusion.ootd.utils import get_mask_location
 
 PROJECT_ROOT = Path(__file__).absolute().parents[1].absolute()
 sys.path.insert(0, str(PROJECT_ROOT))

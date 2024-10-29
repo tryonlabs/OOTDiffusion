@@ -4,8 +4,6 @@ import config
 from pathlib import Path
 import sys
 
-PROJECT_ROOT = Path(__file__).absolute().parents[0].absolute()
-sys.path.insert(0, str(PROJECT_ROOT))
 import os
 
 import cv2
